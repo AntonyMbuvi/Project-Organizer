@@ -1,0 +1,59 @@
+/* CSS to style the table */
+table {
+    border-collapse: collapse; /* Collapse borders so they don't double up */
+    width: 100%; /* Make the table fill its container */
+  }
+  
+th, td {
+    padding: 10px; /* Add padding to the cells for space between content and borders */
+    border: 1px solid #000; /* Add a solid black border to all cells */
+}
+  
+  /* Style table header cells (th) differently */
+th {
+    background-color: #f0f0f0; /* Add a background color for headers */
+    font-weight: bold; /* Make header text bold */
+}
+  
+  /* Optional: Add hover effect to rows */
+tr:hover {
+    background-color: #e0e0e0;
+  }
+a { 
+  text-decoration: none;
+}
+a:hover {
+  background-color: #e0e0e0;
+}
+.addProject{
+  font-style: italic;
+  font-size: large;
+}
+.pillar { 
+  background-color: white;
+  height: 20px;
+}
+.formPage, .updatePage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-style: italic;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+  gap: 15px;
+  padding: 20px;
+  margin: 3% 40%;
+  background-color: #f0f0f0;
+  border-radius: 30px;
+}
+input, textarea { 
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: right;
+}
